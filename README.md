@@ -13,10 +13,17 @@ The service is just a simple REST service. It uses MySQL database to store the d
 
 1. Get list of users' information including their firstname, lastname and email address by http method `GET`
 2. Create new user and add it to database by http method `POST`
-i.e.
-
-`{
+i.e. The request is
+```
+{
   "firstname" : "xxx",
   "lastname" : "xxx",
   "email" : "xxx@xxx.com",
-}`
+}
+```
+The expected response is 
+```
+{
+  "STATUS" : "SUCCESS",
+}
+```
