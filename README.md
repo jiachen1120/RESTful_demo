@@ -1,6 +1,6 @@
 # RESTful_demo
 Spring Boot "Microservice" Example Project
-This is a sample Java / Maven / Spring Boot application that can be used as a starter for creating a microservice complete with built-in health check, metrics and much more. I hope it helps you.
+This is a sample Java / Maven / Spring Boot application that can be used as a starter for creating microservices which able to list users' information and create new user. I hope it helps you.
 
 # How to Run
 1. Clone this repository
